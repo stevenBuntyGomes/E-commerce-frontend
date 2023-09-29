@@ -1,0 +1,1 @@
+export const API = "https://e-commerce-backend-beta.vercel.app";
