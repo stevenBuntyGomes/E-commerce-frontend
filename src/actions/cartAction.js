@@ -21,7 +21,7 @@ export const addItemsToCart = (id, quantity) => async (dispatch, getState) => {
         }});
         localStorage.setItem("cartItems", JSON.stringify(getState().cart.cartItems));
     // } catch (error) {
-    //     dispatch({type: LOGIN_FAIL, payload: error.response.data.message});
+    //     dispatch({type: LOGIN_FAIL, payload: "error.response.data.message"});
     // }
 }
 
